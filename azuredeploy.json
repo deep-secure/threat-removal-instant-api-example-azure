@@ -160,8 +160,8 @@
                         "[resourceId('Microsoft.Web/sites',variables('functionAppName'))]"
                     ],
                     "properties": {
-                       "repoUrl": "https://github.com/ThinkFlooD/ARM-Deploy.git",
-                       "branch": "master",
+                       "repoUrl": "https://github.com/deep-secure/threat-removal-async-api-example-azure.git",
+                       "branch": "main",
                        "isManualIntegration": true
 
                     }

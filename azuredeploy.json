@@ -160,7 +160,7 @@
                         "[resourceId('Microsoft.Web/sites',variables('functionAppName'))]"
                     ],
                     "properties": {
-                       "repoUrl": "https://github.com/deep-secure/threat-removal-async-api-example-azure.git",
+                       "repoUrl": "https://github.com/deep-secure/threat-removal-instant-api-example-azure.git",
                        "branch": "main",
                        "isManualIntegration": true
 

@@ -66,8 +66,8 @@ async function upload(apiEndpointBase, apiKey, inputBlob, mimeType) {
             },
             responseType: 'arraybuffer',
             url: apiEndpointBase + '/upload',
-            maxContentLength: Math.max(20000, inputBlob.length),
-            maxBodyLength: Math.max(20000, inputBlob.length * 3),
+            maxContentLength: Math.max(20000, inputBlob.length * 3),
+            maxBodyLength: Math.max(20000, inputBlob.length),
             data: inputBlob
         })
 
